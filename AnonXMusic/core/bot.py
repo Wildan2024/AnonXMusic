@@ -48,7 +48,7 @@ class Anony(Client):
                 "Adminin dulu ngentot di log group/channel lu."
             )
             exit()
-        LOGGER(__name__).info(f"ᴀssɪsᴛᴀɴᴛ ᴍᴜsɪᴄ ᴡɪʟᴅᴀɴ sᴛᴀʀᴛᴇᴅ {self.name}")
+        LOGGER(__name__).info(f"ᴀssɪsᴛᴀɴᴛ ᴡɪʟᴅᴀɴ ᴍᴜsɪᴄ sᴛᴀʀᴛᴇᴅ {self.name}")
 
     async def stop(self):
         await super().stop()
